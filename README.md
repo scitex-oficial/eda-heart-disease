@@ -41,7 +41,7 @@ bajo la cuenta de [SciTeX](https://www.linkedin.com/company/scitexoficial).
 Histograma con curva de densidad comparando la distribución 
 de `thalach` entre pacientes con y sin enfermedad cardíaca.
 
-![thalach histplot](outputs/thalach_histplot.svg)
+![thalach histplot](outputs/thalach_histplot_componente.svg)
 
 ---
 
