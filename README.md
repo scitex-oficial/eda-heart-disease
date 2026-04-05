@@ -42,7 +42,7 @@ Distribución de `thalach` comparada entre pacientes con y sin
 enfermedad cardíaca. Muestra la frecuencia real de los datos 
 con curva KDE superpuesta.
 
-![thalach histplot](outputs/thalach_histplot.svg)
+![thalach histplot](outputs/thalach_A_histplot.svg)
 
 ---
 
@@ -51,7 +51,7 @@ Misma variable que el gráfico anterior pero con KDE puro.
 Elimina el ruido visual de las barras y hace visible la 
 separación entre grupos a través del área sombreada entre medianas.
 
-![thalach kdeplot](outputs/thalach_kdeplot.svg)
+![thalach kdeplot](outputs/thalach_B_kdeplot.svg)
 
 ---
 
