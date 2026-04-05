@@ -37,11 +37,46 @@ bajo la cuenta de [SciTeX](https://www.linkedin.com/company/scitexoficial).
 
 ## Gráficos
 
-### 01 · Frecuencia Cardíaca Máxima por Diagnóstico
-Histograma con curva de densidad comparando la distribución 
-de `thalach` entre pacientes con y sin enfermedad cardíaca.
+### 01 · Frecuencia Cardíaca Máxima — Histograma + Densidad
+Distribución de `thalach` comparada entre pacientes con y sin 
+enfermedad cardíaca. Muestra la frecuencia real de los datos 
+con curva KDE superpuesta.
 
-![thalach histplot](outputs/thalach_histplot_componente.svg)
+![thalach histplot](outputs/thalach_histplot.svg)
+
+---
+
+### 02 · Frecuencia Cardíaca Máxima — Curva de Densidad (KDE)
+Misma variable que el gráfico anterior pero con KDE puro. 
+Elimina el ruido visual de las barras y hace visible la 
+separación entre grupos a través del área sombreada entre medianas.
+
+![thalach kdeplot](outputs/thalach_kdeplot.svg)
+
+---
+
+### 03 · Histplot vs KDE — Comparativa
+Panel comparativo de ambos formatos aplicados a la misma variable.
+Incluye tabla de ventajas, desventajas y criterios de uso de cada uno.
+
+![histplot vs kde](outputs/histplot_vs_kde.svg)
+
+---
+
+### 04 · Panel — Todas las Variables · Histograma + Densidad
+Las 5 variables cuantitativas del dataset comparadas entre grupos
+en un solo panel: edad, FC máxima, presión arterial, colesterol
+y depresión ST.
+
+![panel histplot](outputs/panel_histplot.svg)
+
+---
+
+### 05 · Panel — Todas las Variables · Curva de Densidad
+Mismo panel que el anterior en formato KDE puro. Permite comparar
+visualmente la capacidad discriminante de cada variable.
+
+![panel kdeplot](outputs/panel_kdeplot.svg)
 
 ---
 
